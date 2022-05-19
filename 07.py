@@ -1,13 +1,13 @@
 def ubbi_dubbi():
     
-    words = input('Enter a word: ')
+    word = input('Enter a word: ')
     output = []
     
-    for spells in words.split():
+    for spells in word.split():
         if spells in 'aeiou':
-            output.append(f'ub{words}')
+            output.append(f'ub{word}')
         else:
-             output.append(words)
+             output.append(word)
     return ''.join(output)
 
 print(ubbi_dubbi())
