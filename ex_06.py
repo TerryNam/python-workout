@@ -15,13 +15,4 @@ if __name__ == "__main__":
     p_l_sentence = pig_latin_sentence(sentence)
     print(p_l_sentence)
 
-# asdf
-# asdfway
-
-# terry
-# erry + t + ay
-# terryay
-
-# asdf terry
-# asdfway terryay
 
