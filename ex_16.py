@@ -6,14 +6,14 @@ def dictdiff(first, second):
         if first.get(key) != second.get(key):
             output[key] = [first.get(key), second.get(key)]
         elif first.keys() != second.keys():
-            output[key] = []
+            pass
     print(output) 
 
         
             
 if __name__ == "__main__":
-    first = {'a':1, 'b':2, 'c':4}
-    second = {'a':1, 'b':4, 'c':8}
+    first = {'a':1, 'b':2, 'd':3}
+    second = {'a':1, 'b':2, 'c':4}
     dictdiff(first,second)
 
          
