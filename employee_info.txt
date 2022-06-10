@@ -1,0 +1,4 @@
+name,department,birthday month
+John Smith, Accounting, November
+Erica Meyers, It, March
+Jiwon Park, HR, August
